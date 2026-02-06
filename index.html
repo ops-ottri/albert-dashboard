@@ -403,6 +403,12 @@
             setupFilterButtons();
             setupDragAndDrop();
             setupFormHandler();
+            
+            // Auto-refresh every 10 seconds
+            setInterval(async () => {
+                await loadTasks();
+                renderTasks();
+            }, 10000);
         });
 
         // Load tasks from server
