@@ -17,9 +17,9 @@ if (!fs.existsSync(DATA_FILE)) {
 }
 
 // User credentials (hashed passwords)
-// Default: username "ottri" password "albert2024"
+// Default: username "ottri" password "1234"
 const USERS = {
-    'ottri': '$2b$10$vQxM5jGZYxYFJ0ZXqJ8Zk.DqHLKJ8jQWzQK5mGHYxJ9JQxQZJ9JQe' // albert2024
+    'ottri': '$2b$10$A3O6buXaFX08hqRqIML9huEJYNDYHkBmdHGh2oLNGhtOkO8yUpaJ.' // 1234
 };
 
 // Middleware
